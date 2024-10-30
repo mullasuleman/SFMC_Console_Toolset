@@ -2,7 +2,7 @@ var getDESchema = () => {
 	var tf = null;
 
 	var mtf = (t) => {
-		var d = new Blob(t, { type: 'text/csv' });
+		var d = new Blob([t], { type: 'text/csv' });
 		if (tf !== null) window.URL.revokeObjectURL(tf);
 		tf = window.URL.createObjectURL(d);
 		return tf;
@@ -38,7 +38,7 @@ var getDESchema = () => {
 			x.querySelector(".de-content-listing-dvalue-view").innerText + "\n"
 		);
 	});
-	if (fl.length > 0) df(fl, "Schema_" + document.querySelector("#op-head-name-static").value)
+	if (fl.length > 0) df(fl.join(), "Schema_" + document.querySelector("#op-head-name-static").value)
 	return "Downloading file...";
 }
 
