@@ -1,7 +1,5 @@
-
-var tf = null;
-
 var getDEFieldList = () => {
+	var tf = null;
 
 	var mtf = (t) => {
 		var d = new Blob([t], { type: 'text/csv' });
