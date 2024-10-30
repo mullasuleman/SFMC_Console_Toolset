@@ -9,9 +9,9 @@ var getDESchema = () => {
 	};
 
 	var df = (s) => {
-		var fn = document.querySelector("#op-head-name-static").value;
+		var fn = "Schema_" + document.querySelector("#op-head-name-static").value;
 		var l = document.createElement('a');
-		l.setAttribute('download', `Schema_${fn}.csv`);
+		l.setAttribute('download', `${fn}.csv`);
 		l.href = mtf(s);
 		l.click();
 	};
