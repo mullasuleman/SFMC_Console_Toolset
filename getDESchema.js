@@ -2,14 +2,13 @@ var getDESchema = () => {
 	var tf = null;
 
 	var mtf = (t) => {
-		let d = new Blob(t, { type: 'text/csv' });
+		var d = new Blob(t, { type: 'text/csv' });
 		if (tf !== null) window.URL.revokeObjectURL(tf);
 		tf = window.URL.createObjectURL(d);
 		return tf;
 	};
 
-	var df = (s) => {
-		var fn = "Schema_" + document.querySelector("#op-head-name-static").value;
+	var df = (s, fn) => {
 		var l = document.createElement('a');
 		l.setAttribute('download', `${fn}.csv`);
 		l.href = mtf(s);
@@ -39,7 +38,7 @@ var getDESchema = () => {
 			x.querySelector(".de-content-listing-dvalue-view").innerText + "\n"
 		);
 	});
-	if (fl.length > 0) df(fl)
+	if (fl.length > 0) df(fl, "Schema_" + document.querySelector("#op-head-name-static").value)
 	return "Downloading file...";
 }
 
