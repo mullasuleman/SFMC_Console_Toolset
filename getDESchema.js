@@ -1,6 +1,5 @@
-var tf = null;
-
 var getDESchema = () => {
+	var tf = null;
 
 	var mtf = (t) => {
 		let d = new Blob(t, { type: 'text/csv' });
