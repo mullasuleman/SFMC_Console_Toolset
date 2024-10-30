@@ -1,4 +1,4 @@
-var getDEFromFolder = () => {
+var getDEsFromFolder = () => {
   window.sfmcDEs = window.deList || [];
   var pageNo = 1;
   console.log("Please wait...");
@@ -31,4 +31,4 @@ var getDEFromFolder = () => {
   }, 1000);
 }
 
-getDEFromFolder();
+getDEsFromFolder();
