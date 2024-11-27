@@ -41,7 +41,7 @@ To download schema of a data extension.
 **Downloaded CSV includes:** DE Path, Name, External Key, Fields, Field Type, Field Length, Primary Key, Nullable, and Default Value. 
 
 ## Download Empty CSV
-To download a blank csv with all DE fields as headers which can be used to import test records or as a sample file when setting up an import activity in Automation Studio or in an import definition in Contact Builder. 
+To download a blank csv with all DE fields as headers which can be used to populate and import test records or as a sample file when setting up an import activity in Automation Studio or in an import definition in Contact Builder. 
 
 - Open a data extension
 - Click Download DE Schema to download schema
