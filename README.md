@@ -21,7 +21,7 @@ document.head.appendChild(sfmcTools);
 These tools work with Data Extensions, Shared Data Extensions, Synchronized Data Extensions and Lists. These tools will stay visible until you close or leave Email Studio.
 
 ## Scrape and Download DEs
-To scarpe all the data extensions from the open folder. 
+To scrape all the data extensions from the open folder. 
 - Use Scrape DEs to scrape DEs
 - You can change folders and scrape different folders at a time
 - Once you are done, click Download DE List button to download a CSV file with DEs you scraped
@@ -29,7 +29,7 @@ To scarpe all the data extensions from the open folder.
 **Downloaded CSV includes:** DE Path, Name, External Key, Sendable, Field Count, Record Count, Last Modified Date
 
 ## Scrape and Download Lists
-To scarpe all the lists from the open folder. Same functionality as DEs.
+To scrape all the lists from the open folder. Same functionality as DEs.
 
 **Downloaded CSV includes:** List ID, Path, Name, External Key, Record Count
 
