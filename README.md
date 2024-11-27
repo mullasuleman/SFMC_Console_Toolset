@@ -1,4 +1,4 @@
-## How to use?
+# How to use?
 
 - Login to Marketing Cloud Engagement, go to Email Studio > Subscribers > Data Extensions
 - Right click anywhere inside the "Data Extension" window (right hand side, where the data extension list is displayed), then click "Inspect".
@@ -15,23 +15,31 @@ document.head.appendChild(sfmcTools);
 - If first-time pasting in console, type "allow pasting" and hit Enter. Otherwise you won't be able to paste anyting into the browser
 - You can use `CTRL + SHIFT + C` (Windows) `CMD + SHIFT + C` (Mac) shortcut to quickly inspect any element in the current browser window.  
 
-## Tools
+# Tools
 
-### Scrape and Download DEs
+These tools work with Data Extensions, Shared Data Extensions, Synchronized Data Extensions and Lists. These tools will stay visible until you close or leave Email Studio.
+
+## Scrape and Download DEs
 To scarpe all the data extensions from the open folder. 
 - Use Scrape DEs to scrape DEs.
 - You can change folders and scrape different folders at a time.
 - Once you are done, click Download DE List button to download a CSV file with DEs you scraped.
 
-### Scrape and Download Lists
+**Downloaded CSV includes:** DE Path, Name, External Key, Sendable, Field Count, Record Count, Last Modified Date
+
+## Scrape and Download Lists
 To scarpe all the lists from the open folder. Same functionality as DEs.
 
-### Download DE Schema
-To download schema of a data extension including name, path, external key, fields, primary keys, field type, length and default values.
+**Downloaded CSV includes:** List ID, Path, Name, External Key, Record Count
+
+## Download DE Schema
+To download schema of a data extension.
 - Open a data extension
 - Click Download DE Schema to download schema.
 
-### Download Empty CSV
+**Downloaded CSV includes:** DE Path, Name, External Key, Fields, Field Type, Field Length, Primary Key, Nullable, and Default Value. 
+
+## Download Empty CSV
 To download a blank csv with all DE fields as headers which can be used to import test records or as a sample file when setting up an import activity in Automation Studio or in an import definition in Contact Builder. 
 
 - Open a data extension
