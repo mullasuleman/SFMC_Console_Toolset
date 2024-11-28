@@ -1,7 +1,7 @@
 # How to use?
 
 - Login to Marketing Cloud Engagement, go to Email Studio > Subscribers > Data Extensions
-- Right click anywhere inside the "Data Extension" window (right hand side, where the data extension list is displayed), then click "Inspect"
+- Right click anywhere inside the "Data Extension" window (right-hand side, where the data extension list is displayed), then click "Inspect"
 - Go to Console
 - Paste the following script in the console and run
 - This will add new buttons at the bottom of the page
