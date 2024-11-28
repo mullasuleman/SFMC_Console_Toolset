@@ -1,3 +1,6 @@
+# What is this toolset?
+This toolset adds a few additional Data Extension related utilities to SFMC's Email Studio to help with some mundane tasks.
+
 # How to use?
 
 - Login to Marketing Cloud Engagement, go to Email Studio > Subscribers > Data Extensions
