@@ -22,11 +22,14 @@ These tools work with Data Extensions, Shared Data Extensions, Synchronized Data
 
 ## Scrape and Download DEs
 To scrape all the data extensions from the open folder. 
-- Use Scrape DEs to scrape DEs
-- You can change folders and scrape different folders at a time
+- Use Scrape DEs to scrape DEs from the current folder (it will scrape all pages inside the folder).
 - Once you are done, click Download DE List button to download a CSV file with DEs you scraped
 
 **Downloaded CSV includes:** DE Path, Name, External Key, Sendable, Field Count, Record Count, Last Modified Date
+
+**FYI** 
+- The download button will show how many DEs you have in your file
+- Once you are done with a folder, you can change folder and repeat the steps to add DEs to your file before downloading.
 
 ## Scrape and Download Lists
 To scrape all the lists from the open folder. Same functionality as DEs.
