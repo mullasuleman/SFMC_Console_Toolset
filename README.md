@@ -61,7 +61,7 @@ To download a blank csv with all DE fields as headers.
 Sample CSV: [Sample_File_DE_Blank.csv](assets/Sample_File_DE_Blank.csv)
 
 **Uses**
-- Sometimes you really just want to quickly import some records. Use this to download the blank csv, populate with data and import.
+- Sometimes you really just want to quickly import some records. Use this to download a blank csv, populate with data and import.
 - Use as a sample file when setting up an import activity in Automation Studio
 - Use as a sample file when setting up an import definition in Contact Builder
 
