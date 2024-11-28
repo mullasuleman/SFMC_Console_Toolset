@@ -53,11 +53,16 @@ To download schema of a data extension.
 Sample CSV: [Sample_File_DE_Schema.csv](assets/Sample_File_DE_Schema.csv)
 
 ## Download Empty CSV
-To download a blank csv with all DE fields as headers which can be used to populate and import test records or as a sample file when setting up an import activity in Automation Studio or in an import definition in Contact Builder. 
+To download a blank csv with all DE fields as headers. 
 
 - Open a data extension
-- Click Download DE Schema to download schema
+- Click Download Empty CSV to download a blank CSV file with DE fields as headers
 
 Sample CSV: [Sample_File_DE_Blank.csv](assets/Sample_File_DE_Blank.csv)
+
+**Uses**
+- Sometimes you really just want to quickly import some records. Use this to download the blank csv, populate with data and import.
+- Use as a sample file when setting up an import activity in Automation Studio
+- Use as a sample file when setting up an import definition in Contact Builder
 
 This tool will also copy a comma-separated field list to the clipboard if you need to quickly grab all fields from a data extension to use in SQL Query.
