@@ -20,6 +20,8 @@ document.head.appendChild(sfmcTools);
 
 These tools work with Data Extensions, Shared Data Extensions, Synchronized Data Extensions and Lists. These tools will stay visible until you close or leave Email Studio.
 
+![SFMC Tools](images/Tools.png)
+
 ## Scrape and Download DEs
 To scrape all the data extensions from the open folder. 
 - Use Scrape DEs to scrape DEs from the current folder (it will scrape all pages inside the folder).
