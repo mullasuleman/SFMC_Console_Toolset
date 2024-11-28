@@ -65,4 +65,4 @@ Sample CSV: [Sample_File_DE_Blank.csv](assets/Sample_File_DE_Blank.csv)
 - Use as a sample file when setting up an import activity in Automation Studio
 - Use as a sample file when setting up an import definition in Contact Builder
 
-This tool will also copy a comma-separated field list to the clipboard if you need to quickly grab all fields from a data extension to use in SQL Query.
+This tool will also copy a comma-separated field list to the clipboard if you need to grab all fields from a data extension to use in SQL Query.
