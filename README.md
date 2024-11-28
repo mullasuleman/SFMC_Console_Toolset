@@ -1,4 +1,4 @@
-# What is this toolset?
+# What is this?
 This toolset adds a few additional Data Extension related utilities to SFMC's Email Studio to help with some mundane tasks.
 
 # How to use?
