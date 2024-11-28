@@ -13,7 +13,7 @@ document.head.appendChild(sfmcTools);
 ```
 
 **FYI**
-- If first-time pasting in console, type "allow pasting" and hit Enter. Otherwise you won't be able to paste anyting into the browser
+- If first-time pasting in console, type "allow pasting" and hit Enter. Otherwise you won't be able to paste into the console
 - You can use `CTRL + SHIFT + C` (Windows) `CMD + SHIFT + C` (Mac) shortcut to quickly inspect any element in the current browser window
 
 # Tools
