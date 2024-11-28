@@ -66,3 +66,6 @@ Sample CSV: [Sample_File_DE_Blank.csv](assets/Sample_File_DE_Blank.csv)
 - Use as a sample file for field mapping when setting up an import definition in Contact Builder
 
 This tool will also copy a comma-separated field list to the clipboard if you need to grab all fields from a data extension to use in SQL Query.
+
+## Copy SQL
+Copies an SQL query to your clipboard for the data extension that's currently open.
