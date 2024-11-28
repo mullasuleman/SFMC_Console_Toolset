@@ -29,6 +29,8 @@ To scrape all the data extensions from the open folder.
 
 **Downloaded CSV includes:** DE Path, Name, External Key, Sendable, Field Count, Record Count, Last Modified Date
 
+Sample File: [Sample_File_DE_List.csv](assets/Sample_File_DE_List.csv)
+
 **FYI** 
 - The download button will show how many DEs you have in your file
 - Once you are done with a folder, you can change folder and repeat the steps to add DEs to your file before downloading.
@@ -45,10 +47,14 @@ To download schema of a data extension.
 
 **Downloaded CSV includes:** DE Path, Name, External Key, Fields, Field Type, Field Length, Primary Key, Nullable, and Default Value. 
 
+Sample File: [Sample_File_DE_Schema.csv](assets/Sample_File_DE_Schema.csv)
+
 ## Download Empty CSV
 To download a blank csv with all DE fields as headers which can be used to populate and import test records or as a sample file when setting up an import activity in Automation Studio or in an import definition in Contact Builder. 
 
 - Open a data extension
 - Click Download DE Schema to download schema
+
+Sample File: [Sample_File_DE_Blank.csv](assets/Sample_File_DE_Blank.csv)
 
 This tool will also copy a comma-separated field list to the clipboard if you need to quickly grab all fields from a data extension to use in SQL Query.
