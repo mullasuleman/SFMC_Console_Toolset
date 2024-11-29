@@ -25,6 +25,24 @@ These tools work with Data Extensions, Shared Data Extensions, Synchronized Data
 
 ![SFMC Tools](assets/Tools.png)
 
+## Download Empty CSV
+To download a blank csv with all DE fields as headers. 
+
+- Open a data extension
+- Click Download Empty CSV to download a blank CSV file with DE fields as headers
+
+Sample CSV: [Sample_File_DE_Blank.csv](assets/Sample_File_DE_Blank.csv)
+
+**Uses**
+- Sometimes you really just want to quickly import some records. Use this to download a blank csv, populate with data and import.
+- Use as a sample file for field mapping when setting up an import activity in Automation Studio
+- Use as a sample file for field mapping when setting up an import definition in Contact Builder
+
+This tool will also copy a comma-separated field list to the clipboard if you need to grab all fields from a data extension to use in SQL Query.
+
+## Copy SQL
+Copies an SQL query to your clipboard for the data extension that's currently open.
+
 ## Scrape and Download DEs
 To scrape all the data extensions from the open folder. 
 - Use Scrape DEs to scrape DEs from the current folder (it will scrape all pages inside the folder).
@@ -51,21 +69,3 @@ To download schema of a data extension.
 **Downloaded CSV includes:** DE Path, Name, External Key, Fields, Field Type, Field Length, Primary Key, Nullable, and Default Value. 
 
 Sample CSV: [Sample_File_DE_Schema.csv](assets/Sample_File_DE_Schema.csv)
-
-## Download Empty CSV
-To download a blank csv with all DE fields as headers. 
-
-- Open a data extension
-- Click Download Empty CSV to download a blank CSV file with DE fields as headers
-
-Sample CSV: [Sample_File_DE_Blank.csv](assets/Sample_File_DE_Blank.csv)
-
-**Uses**
-- Sometimes you really just want to quickly import some records. Use this to download a blank csv, populate with data and import.
-- Use as a sample file for field mapping when setting up an import activity in Automation Studio
-- Use as a sample file for field mapping when setting up an import definition in Contact Builder
-
-This tool will also copy a comma-separated field list to the clipboard if you need to grab all fields from a data extension to use in SQL Query.
-
-## Copy SQL
-Copies an SQL query to your clipboard for the data extension that's currently open.
